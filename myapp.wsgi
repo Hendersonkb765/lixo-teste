@@ -5,7 +5,7 @@ import os
 sys.path.insert(0, '/var/www/lixo-teste')
 
 # Ative o ambiente virtual (ajuste o caminho conforme necessário)
-activate_this = '/var/www/lixo-teste/venv/bin/activate_this.py'
+activate_this = '/var/www/lixo-teste/lixo-teste/bin/activate_this.py'
 exec(open(activate_this).read(), dict(__file__=activate_this))
 
 # Defina variáveis de ambiente, se necessário (como o FLASK_ENV)
